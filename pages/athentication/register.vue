@@ -3,7 +3,7 @@
     <v-row class="d-flex justify-center align-center ">
       <v-col cols="12" sm="7" md="6">
         <v-card class="mx-auto rounded-lg text-center w-100 card" style="border:1px solid #66BDAE " variant="outlined">
-          <v-card class="py-2 mx-auto  rounded-lg width bg-propurple text-white mt-4 mb-5 d-flex justify-space-around">
+          <v-card class="py-1 mx-auto  rounded-lg width bg-propurple text-white mt-3 mb-4 d-flex justify-space-around">
             <v-btn @click="chanePage(1)" class="btn  text-center text-subtitle-1" variant="text" :class="{ selectedbtn: selectedbtn === 1 }">
               فرزند دارم</v-btn>
 

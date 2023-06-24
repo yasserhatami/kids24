@@ -1,6 +1,6 @@
 <template>
   <div class="width mx-auto">
-    <v-sheet class="mx-auto w-100 rounded-lg  mb-4 card">
+    <v-sheet class="mx-auto w-100 rounded-lg  mb-1 card">
 
       <input @blur="v$.childName.$touch" @keyup="v$.childName.$touch" v-model="formData.childName" type="text"
         class="costom-input mb-3" placeholder=" نام کودک">
@@ -37,19 +37,19 @@
       </div>
 
       <div class="w-100  d-flex justify-space-between align-center">
-        <label class=" h-100 d-flex justify-center radio-sryle">
+        <label class="  d-flex justify-center radio-sryle">
           <div class="">
             <input class="" type="radio" name="test" value="girl" checked>
-            <nuxt-img src="/images/girl.png" format="webp" alt="girl"></nuxt-img>
+            <nuxt-img src="/images/girl.png" height="50px" format="webp" alt="girl"></nuxt-img>
             <p>دختر</p>
           </div>
         </label>
 
 
-        <label class="  h-100 d-flex justify-center radio-sryle">
+        <label class=" d-flex justify-center radio-sryle">
           <div>
             <input class="" type="radio" name="test" value="boy" checked>
-            <nuxt-img src="/images/boy.png" format="webp" alt="boy"></nuxt-img>
+            <nuxt-img src="/images/boy.png" height="50px" format="webp" alt="boy"></nuxt-img>
             <p>پسر</p>
           </div>
         </label>
@@ -60,19 +60,19 @@
       </div>
 
       <div class="w-100  d-flex justify-space-between align-center">
-        <label class=" h-100 d-flex justify-center radio-sryle">
+        <label class="  d-flex justify-center radio-sryle">
           <div class="">
             <input class="" type="radio" name="test" value="mother" checked>
-            <nuxt-img src="/images/mother.png" format="webp" alt="girl"></nuxt-img>
+            <nuxt-img src="/images/mother.png" height="50px" format="webp" alt="girl"></nuxt-img>
             <p>مادر</p>
           </div>
         </label>
 
 
-        <label class="  h-100 d-flex justify-center radio-sryle">
+        <label class=" d-flex justify-center radio-sryle">
           <div>
             <input class="" type="radio" name="test" value="pedar" checked>
-            <nuxt-img src="/images/baba.png" format="webp" alt="boy"></nuxt-img>
+            <nuxt-img src="/images/baba.png" height="50px" format="webp" alt="boy"></nuxt-img>
             <p>پدر</p>
           </div>
         </label>
@@ -80,7 +80,7 @@
 
 
 
-      <v-btn @click="login" block class="mt-4 mb-2 py-6 bg-propurple text-prowhite text-h6">ثبت اطلاعات</v-btn>
+      <v-btn @click="login" block class="mt-4 mb-2 py-3 bg-propurple text-prowhite text-h6">ثبت اطلاعات</v-btn>
       <nuxt-link to="/athentication/login">ورد به کیدز24</nuxt-link>
     </v-sheet>
   </div>
@@ -127,19 +127,19 @@ function login() {
 
 <style scoped>
 .radio-sryle {
-  width: 48%;
-  height: 50px;
-  border-bottom: 3px solid #B5B5B5;
-  border-radius: 20px 20px 0px 0px;
-  background-color: #FFFFFF;
-  outline: none;
-  padding: 10px;
-  color: #B5B5B5;
+    width: 48%;
+    
+    border-bottom: 3px solid #B5B5B5;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #FFFFFF;
+    outline: none;
+    padding: 10px;
+    color: #B5B5B5;
 
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 13px;
 }
 
 /* HIDE RADIO */

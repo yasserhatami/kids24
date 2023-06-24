@@ -15,7 +15,7 @@
 
 <style scoped>
   .wrapper{
-    height: 98vh;
+    height: 100vh;
     background-image: url('/images/authbg1.png'),url('/images/authbg2.png');
     background-position: left top, right bottom;
     background-repeat: no-repeat;
